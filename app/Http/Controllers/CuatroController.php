@@ -13,7 +13,7 @@ class CuatroController extends Controller
      */
     public function index()
     {
-        //
+        return view("vista4");
     }
 
     /**
@@ -45,9 +45,7 @@ class CuatroController extends Controller
      */
     public function show($id)
     {
-        {
-            return "Ruta 4";
-        }
+        //
     }
 
     /**

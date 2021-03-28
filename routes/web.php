@@ -21,8 +21,8 @@ use App\Http\Controllers\CincoController;
 //Route::get('/ruta1', function () {
   //  return ('Ruta 1');
 //});
-Route::get('/ruta1/{id}', [UnoController::class, 'show']);
-Route::get('/ruta2/{id}', [DosController::class, 'show']);
-Route::get('/ruta3/{id}', [TresController::class, 'show']);
-Route::get('/ruta4/{id}', [CuatroController::class, 'show']);
-Route::get('/ruta5/{id}', [CincoController::class, 'show']);
+Route::get('/ruta1','UnoController@index');
+Route::get('/ruta2','DosController@index');
+Route::get('/ruta3','TresController@index');
+Route::get('/ruta4','CuatroController@index');
+Route::get('/ruta5','CincoController@index');

@@ -13,7 +13,7 @@ class TresController extends Controller
      */
     public function index()
     {
-        //
+        return view("vista3");
     }
 
     /**
@@ -45,9 +45,7 @@ class TresController extends Controller
      */
     public function show($id)
     {
-        {
-            return "Ruta 3";
-        }
+            //
     }
 
     /**

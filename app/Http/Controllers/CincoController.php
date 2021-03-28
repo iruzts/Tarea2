@@ -13,7 +13,7 @@ class CincoController extends Controller
      */
     public function index()
     {
-        //
+        return view("vista5");
     }
 
     /**
@@ -23,9 +23,7 @@ class CincoController extends Controller
      */
     public function create()
     {
-        {
-            return "Ruta 5";
-        }
+        //
     }
 
     /**

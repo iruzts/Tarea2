@@ -13,7 +13,7 @@ class UnoController extends Controller
      */
     public function index()
     {
-        return "index";
+        return view("vista1");
     }
 
     /**
@@ -45,9 +45,7 @@ class UnoController extends Controller
      */
     public function show($id)
     {
-        {
-            return "Ruta 1";
-        }
+        //
      }
 
     /**
